@@ -1,0 +1,20 @@
+{
+  "name": "07-Connect-And-Create",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "watch": "nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongodb": "^3.2.6",
+    "nodemon": "^2.0.20",
+    "sanitize-html": "^2.10.0"
+  }
+}
